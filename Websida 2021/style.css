@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+a {
+  text-decoration:none;
+  color: #232323;
+}
+
+#navbar {
+  position: fixed;
+  Width: 100%;
+  overflow: hidden;
+  background-color: #ffe9ca;
+}
+
+#navbar a {
+  float: left;
+  text-align: center;
+  padding: 40px 70px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#navbar a:hover {
+  color: black;
+  text-decoration:underline;
+}
+
+/*.navbar-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.navbar-right {
+  float: right;
+}
+
+.img {
+  display: flex
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  padding: 7%;
+  text-align: left;
+  color: black;
+}
+
+#container {
+  width: 50%;
+  margin-left: 25%;
+  font-style: italic;
+}
+
+.about_header {
+  padding: 11%;
+  background-color: #93cadf;
+  text-align: center;
+  font-size: 130%;
+}
+
+.about {
+  padding: 1%;
+  background: #93cadf;
+  text-align: center;
+  font-size: 130%;
+}
+
+.faq_header {
+  padding: 2%;
+  background-color: #93cadf;
+  text-align: center;
+  font-size: 130%;
+}
+
+.faq {
+  padding: 3%;
+  background-color: #93cadf;
+  text-align: center;
+  font-size: 130%;
+
+}
+
+#images {
+  text-align: center;
+}
+
+#images_text {
+  font-size: 130%;
+  text-transform: uppercase;
+}
+
+.night_table {
+  float: left;
+  margin-left: 11%;
+}
+
+.bed {
+  margin-left: 36%;
+}
+
+.closet {
+  margin-left: 65%;
+  float: left;
+  margin-top: -5.7%;
+}
+
+.cabinet {
+  float: left;
+  margin-left: 11%;
+}
+
+.chair {
+  margin-left: 36%;
+}
+
+.kitchen_table {
+  margin-left: 65%;
+  float: left;
+  margin-top: -5.7%;
+}
+
+.coffee_table {
+  float: left;
+  margin-left: 11%;
+}
+
+.sofa {
+  margin-left: 36%;
+}
+
+.TV-bench {
+  margin-left: 65%;
+  float: left;
+  margin-top: -5.7%;
+}
+
+#footer {
+  padding:7%;
+  background-color: #ffe9ca;
+  text-align:left;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_inner li {
+  list-style-type: none;
+  font-size: 150%;
+
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer_left {
+ float: left;
+}
+
+.footer_centered {
+  float: none;
+}
+
+.footer_right {
+ float:right;
+}
+
+.logo {
+  width: 200px;
+  margin-left: 45%;
+  margin-top: -50px;
+  position: absolute;
+}
